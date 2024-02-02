@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background:
+    linear-gradient(to bottom right, #090909 30%, #241b61),
+    linear-gradient(to top right, #5b1253, transparent 50%);
+  background-blend-mode: screen;
+  font-family: 'Kanit', sans-serif;
+}
+@font-face {
+  font-family: nome;
+  src: url(./Gilroy-Light.otf);
+}
+.container {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+
+}
+
+.logo img {
+  width: 135.5px;
+  position: absolute;
+  left: 44.5%;
+  top: 29px;
+}
+
+.who p {
+  color: white;
+  position: absolute;
+  left: 32.2%;
+  font-size: 45px;
+  top: 48px;
+}
+.itens ul li{
+  list-style: none;
+}
+
+
+.itens ul{
+  display: flex;
+  justify-content:center;
+  
+}
+.itens li{
+  margin: 25px;
+}
+.itens p{
+  position: relative;
+  top: 190px;
+  left: 15px;
+  font-size: 20px;
+  color: white;
+  font-family: nome;
+  transition: font-size 0.3s;
+}
+.itens ul li img {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  position: relative;
+  top: 198px;
+  left: -20px;
+  border: solid pink 7px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.itens li:hover{
+  transform: scale(1.2);
+}
+
+
